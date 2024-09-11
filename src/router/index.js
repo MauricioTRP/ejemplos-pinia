@@ -21,6 +21,16 @@ const router = createRouter({
       path: '/custom',
       name: 'custom',
       component: () => import('@/views/CustomView.vue')
+    },
+    {
+      path: '/financial',
+      name: 'financial',
+      component: () => import('@/views/FinancialIndicators.vue')
+    },
+    {
+      path: '/tareas',
+      name: 'tareas',
+      component: () => import('@/views/TareasView.vue')
     }
   ]
 })
